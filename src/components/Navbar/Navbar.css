@@ -59,4 +59,12 @@
   border-radius: 2px;
   text-decoration: underline;
   z-index: 1;
+  display: none;
+}
+.navbar.dropdown {
+  cursor: pointer;
+  font-size: 13px;
+}
+.navbar-profile:hover .dropdown {
+  display: block;
 }
